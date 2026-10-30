@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char str[] = "Hello\n";
+
+    printf("Index = %zu", strcspn(str, "\n"));
+
+    return 0;
+}
